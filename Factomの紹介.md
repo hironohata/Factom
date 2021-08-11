@@ -67,6 +67,7 @@ Factomはブロックチェーンであるため、ユーザが発行するデ�
 
 ユーザのデータはEntryとして、ChainID、付記としてのExtID、ユーザデータのContentから構成される。Entryがいくつか集まってEntry Blockが構成される。さらに、Anchoringのために、いくつかのEntry BlockからDirectory Block が形成され、BitcoinとEthereumに書き込まれる。（図1）
 ![図1　Factomのデータ構成（概要）](./Picture1.png)
+
 **図1　Factomのデータ構成（概要）**
 
 以上の他にも、Entry Credit Block、Factroid Block、およびAdministrative Blockなどが存在する。

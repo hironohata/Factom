@@ -132,7 +132,7 @@ Factom ブロックチェーンは、サプライチェーンのアプリケー�
 
 <br><br>
 
-なお、Factom は https://www.factomprotocol.org がすべての権利を保有しています。
+なお、Factom は FACTOM Protocol (https://www.factomprotocol.org) がすべての権利を保有しています。
 
 
 

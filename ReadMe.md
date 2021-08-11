@@ -1,1 +1,1 @@
-[](./Factomの紹介.md)
+[See Factomの紹介.md](./Factomの紹介.md)

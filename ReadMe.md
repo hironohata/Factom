@@ -4,6 +4,7 @@
 なお、Factom は Accumulateへ移行する予定であるので、Accumulateの概要をも紹介する。　
 
 初版　2021年3月7日
+
 追記　2022年3月28日  「A.　Factom と Accumulate」
 
 <br>

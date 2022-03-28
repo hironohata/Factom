@@ -140,7 +140,7 @@ Factom ブロックチェーンは、サプライチェーンのアプリケー�
 以上、初版。
 
 
-## 4. 付録 A．Factom と Accumulate
+## 付録 A．Factom と Accumulate
 
 <br>
 ## 4. 付録 A．Factom と Accumulate

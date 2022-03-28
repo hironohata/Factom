@@ -165,6 +165,7 @@ BVNは実績のある Tendermint (COSMOS) をベース。
 DNからBitcoin、Ethereum、。。。にアンカリングし、セキュリティを向上させている（のは Factomと同じ）。 
 
 詳しくは、以下を参照。
+
 ・https://accumulatenetwork.io/
 
 ・ドキュメンテーション:  https://docs.accumulatenetwork.io/accumulate/

@@ -150,10 +150,12 @@ Factom ブロックチェーンは、サプライチェーンのアプリケー�
 その後、Factom Inc.は Inveniam Capital Partners（米国 https://inveniam.io/ ）に買収され、その一員となっている。Factomのブロックチェーン技術は Aaccumulateとして再構成され、現在 (2022/3/28) Mainnet のラウンチの手前まで来ている。
 
 ### Accumulate の特徴
-・**ADI (Accumulate Digital Identifier) 中心の企業向きブロックチェーン**
+•	**ADI (Accumulate Digital Identifier) 中心の企業向きブロックチェーン**
+
 Accumulate は Factomを引き継いではいるが、DIgital Identityを中心にブロックチェーンを構成し、より Decentralizedな作りとなっている。企業（に限らずあらゆる組織）では階層構造を持つ。その構成員（部署、人、デバイス、。。。）が各々の DIgital Identity ADI (Accumulate Digital Identifier) を持ち、それに対応した独立のサブ・ブロックチェーン、しかも数種類のサブ・ブロックチェーンを所有する。Factomで自由にチェーンを作成できたが、その拡張と考えるとよい。階層構造の ADI（acc://ADI/account の形式）と、階層構造を持つキー管理を有する。これらの点からも企業向き、ビジネス向きブロックチェーンと言えよう。
 
-・**Validator - Accumulator**
+•	**Validator - Accumulator**
+
 ある DIgital Identityのサブ・ブロックチェーンに書き込まれるトランザクションはそのサブ・ブロックチェーンの Validatorによって検証され、その集まりの BVN (Block Validator Network)が構成される。各構成員に対応した多数のサブ・ブロックチェーン、多数のValidatorによって検証された結果は Accumulator（集積者）によって取りまとめられ、DN (Directory Network) が作成される。Entry Blocks → BV Network、Directory Blocks → Directory Network。Accumulatorの存在は Factomとは異なる点である。
  
 ![](./Component.png)
@@ -175,9 +177,12 @@ https://accumulatenetwork.io/ では他のブロックチェーンとの特徴�
 ![他のブロックチェーンとの比較](./Comparison.png)
 **Interoperability with Accumulate** （出典:  https://accumulatenetwork.io/）
 
-・Accumulateは Layer2技術。多くのLayer1と統合できる。
-・Factomが当面4,000TPSを目標にしていた　→  70.000TPS
-・Factom と同じく Dual Tokens（ACMEと Credits）を採用し、固定費用で利用できる。
+•	Accumulateは Layer2技術。多くのLayer1と統合できる。
+
+•	Factomが当面4,000TPSを目標にしていた　→  70.000TPS
+
+•	Factom と同じく Dual Tokens（ACMEと Credits）を採用し、固定費用で利用できる。
+
 などなど、期待される。
 
 なお、Factomの開発・運用主体である Factom Protocol Foundation は Accumulate に移行する旨を表明している。（2021/12/7）

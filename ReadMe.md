@@ -181,7 +181,7 @@ https://accumulatenetwork.io/ では他のブロックチェーンとの特徴�
 などなど、期待される。
 
 なお、Factomの開発・運用主体である Factom Protocol Foundation は Accumulate に移行する旨を表明している。（2021/12/7）
-
+https://accumulatenetwork.io/2021/12/factom-validators-vote-unanimously-to-approve-upgrade-to-accumulate/
 
 <br>
 ### ©2022 Hybrid IT Labs.

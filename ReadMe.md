@@ -166,8 +166,11 @@ DNからBitcoin、Ethereum、。。。にアンカリングし、セキュリテ
 
 詳しくは、以下を参照。
 ・https://accumulatenetwork.io/
+
 ・ドキュメンテーション:  https://docs.accumulatenetwork.io/accumulate/
+
 ・Lite paper:  https://accumulatenetwork.io/litepaper
+
 ・https://github.com/AccumulateNetwork/accumulate-docs
 
 ### 他のブロックチェーンとの比較

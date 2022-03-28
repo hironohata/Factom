@@ -1,4 +1,4 @@
-# Factom の紹介、 そして Accumulate へ
+# Factom、 そして Accumulate へ
 
 本稿では、デジタルIDの発行・管理と各種契約書への署名、およびその真正性の検証システムを提供するOff-Blocks, Ltd.（英国）がバックエンドに使用している Factom について、その特徴やメリットなどを紹介する。
 なお、Factom は Accumulateへ移行する予定であるので、Accumulateの概要をも紹介する。　

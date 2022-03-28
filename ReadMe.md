@@ -143,7 +143,6 @@ Factom ブロックチェーンは、サプライチェーンのアプリケー�
 <br>
 ## 付録 A．Factom と Accumulate
 
-
 その後、Factom Inc.は Inveniam Capital Partners（米国 https://inveniam.io/）に買収され、その一員となっている。Factomのブロックチェーン技術は Aaccumulateとして再構成され、現在 (2022/3/28) Mainnet のラウンチの手前まで来ている。
 
 ### Accumulate の特徴

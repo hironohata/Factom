@@ -3,9 +3,9 @@
 本稿では、デジタルIDの発行・管理と各種契約書への署名、およびその真正性の検証システムを提供するOff-Blocks, Ltd.（英国）がバックエンドに使用している Factom について、その特徴やメリットなどを紹介する。
 なお、Factom は Accumulateへ移行する予定であるので、Accumulateの概要をも紹介する。　
 
-初版　2021年3月7日
+2021年3月7日 初版　
 
-追記　2022年3月28日  「A.　Factom と Accumulate」
+2022年3月28日 追記「A.　Factom と Accumulate」
 
 <br>
 
@@ -79,7 +79,7 @@ FactroidsからEntry Creditsに変更して、Factomを利用する手数料を�
 Factomはブロックチェーンであるため、ユーザが発行するデータの塊であるブロックはポインターで結ばれ、一列に整列した形をとっている。そのうち、アプリケーションが扱う一連のデータにChain Nameを付けることができる。Factom内では、Chain Nameをハッシュ化したChain IDで制御される。
 
 ユーザのデータはEntryとして、ChainID、付記としてのExtID、ユーザデータのContentから構成される。Entryがいくつか集まってEntry Blockが構成される。さらに、Anchoringのために、いくつかのEntry BlockからDirectory Block が形成され、BitcoinとEthereumに書き込まれる。（図1）
-![図1　Factomのデータ構成（概要）](./Picture1.png)
+![図1　Factomのデータ構成（概要）](./fct-Fig1.png)
 
 **図1　Factomのデータ構成（概要）**
 
@@ -158,7 +158,7 @@ Accumulate は Factomを引き継いではいるが、DIgital Identityを中心�
 
 ある DIgital Identityのサブ・ブロックチェーンに書き込まれるトランザクションはそのサブ・ブロックチェーンの Validatorによって検証され、その集まりの BVN (Block Validator Network)が構成される。各構成員に対応した多数のサブ・ブロックチェーン、多数のValidatorによって検証された結果は Accumulator（集積者）によって取りまとめられ、DN (Directory Network) が作成される。Entry Blocks → BV Network、Directory Blocks → Directory Network。Accumulatorの存在は Factomとは異なる点である。
  
-![](./Component.png)
+![](./acc-components.png)
 **The components of Block Validator and Directory Block Networks**  （出典: ACCUMULAE Protocol Litepaper v2.0）
 
 BVNは実績のある Tendermint (COSMOS) をベース。
@@ -178,7 +178,7 @@ DNからBitcoin、Ethereum、。。。にアンカリングし、セキュリテ
 
 https://accumulatenetwork.io/ では他のブロックチェーンとの特徴比較を謳っている。
 
-![他のブロックチェーンとの比較](./Comparison.png)
+![他のブロックチェーンとの比較](./acc-interOp.png)
 **Interoperability with Accumulate** （出典:  https://accumulatenetwork.io/）
 
 •	Accumulateは Layer2技術。多くのLayer1と統合できる。
